@@ -1,0 +1,26 @@
+.Pending {
+	background-color: blue;
+	color: white;
+}
+.Activated {
+	background-color: orange;
+	color: white;
+}
+
+.Fixed {
+	background-color: green;
+	color: white;
+}
+
+.Closed {
+	background-color: gray;
+	color: black;
+}
+.Rejected{
+	background-color: yellow;
+	color: gray;
+}
+.Reopened {
+	background-color: red;
+	color: white;
+}
