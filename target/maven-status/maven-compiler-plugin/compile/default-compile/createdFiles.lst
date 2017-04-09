@@ -1,0 +1,14 @@
+com/tms/repository/TaskRepository.class
+com/tms/security/CustomAuthenticationProvider.class
+com/tms/dao/TaskDao.class
+com/tms/controller/TaskController.class
+com/tms/dto/TaskDTO.class
+com/tms/dao/TaskDaoImpl.class
+com/tms/controller/Table.class
+com/tms/entity/Address.class
+com/tms/entity/Title.class
+com/tms/config/WebSecurityConfig.class
+com/tms/entity/Status.class
+com/tms/entity/Task.class
+com/tms/controller/MainController.class
+com/tms/TSMController.class

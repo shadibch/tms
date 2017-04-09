@@ -151,16 +151,8 @@
 					name="notes"></textarea>
 
 			</div>
-			<button type="button" id="addremove" class="btn btn-primary active">+</button>
-			<div style="display: none;" id="address">
-			<div class="control-group">
-				<label class="control-label" for="addresLineOne">Address Line One :*</label>
-				<div class="controls">
-					<input id="addresLineOne" name="address.addresLineOne" class="form-control"
-						type="text" /> <span id="address.addresLineOne.errors"></span>
-				</div>
-			</div>
-			</div>
+
+
 			<button type="button" id="save" class="btn btn-primary active">Save</button>
 			<button type="button" class="btn">Close</button>
 
@@ -205,7 +197,7 @@
 		});
 		function saveData() {
 			var data = {};
-			$("#createupdate input:visible").each(function() {
+			$("#createupdate input").each(function() {
 				var key = $(this).attr("name");
 				
 				data[$(this).attr("name")] = $(this).val();

@@ -1,0 +1,14 @@
+/home/shadi/tms/src/main/java/com/tms/dao/TaskDaoImpl.java
+/home/shadi/tms/src/main/java/com/tms/controller/TaskController.java
+/home/shadi/tms/src/main/java/com/tms/security/CustomAuthenticationProvider.java
+/home/shadi/tms/src/main/java/com/tms/controller/Table.java
+/home/shadi/tms/src/main/java/com/tms/TSMController.java
+/home/shadi/tms/src/main/java/com/tms/config/WebSecurityConfig.java
+/home/shadi/tms/src/main/java/com/tms/entity/Status.java
+/home/shadi/tms/src/main/java/com/tms/dto/TaskDTO.java
+/home/shadi/tms/src/main/java/com/tms/entity/Address.java
+/home/shadi/tms/src/main/java/com/tms/dao/TaskDao.java
+/home/shadi/tms/src/main/java/com/tms/entity/Title.java
+/home/shadi/tms/src/main/java/com/tms/entity/Task.java
+/home/shadi/tms/src/main/java/com/tms/controller/MainController.java
+/home/shadi/tms/src/main/java/com/tms/repository/TaskRepository.java
