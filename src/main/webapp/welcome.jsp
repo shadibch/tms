@@ -145,10 +145,10 @@
 			</div>
 
 			<div class="control-group">
-				<label class="control-label" for="notes">Notes :</label>
+				<label class="control-label" for="note">Notes :</label>
 
-				<textarea rows="8" class="form-control" cols="40" id="notes"
-					name="notes"></textarea>
+				<textarea rows="8" class="form-control" cols="40" id="note"
+					name="note"></textarea>
 
 			</div>
 
@@ -160,15 +160,7 @@
 		</fieldset>
 	</div>
 	<script>
-	$("#addremove").click(function(){
-		if($(this).text() == '+') {
-			$("#address").show();
-			$(this).text("-");
-		}else {
-			$("#address").hide();
-			$(this).text("+");
-		}
-	});
+
 		$("#newButton").click(function() {
 			$("#id").val(0);
 			$("#address").hide();
@@ -203,19 +195,13 @@
 				data[$(this).attr("name")] = $(this).val();
 				
 			});
-			$("#createupdate #address input:visible").each(function() {
-				var key = $(this).attr("name");
-				if(data["address"] == undefined) {
-					data["address"] = {};
-				}
-				data["address"][$(this).attr("name")] = $(this).val();
-				
-			});
+
 			$("#createupdate select").each(function() {
 				data[$(this).attr("name")] = $(this).val();
 			});
 			$("#createupdate textarea").each(function() {
 				data[$(this).attr("name")] = $(this).val();
+
 			});
 			var data = JSON.stringify(data);
 			$.ajax({
